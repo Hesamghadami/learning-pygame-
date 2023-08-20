@@ -16,7 +16,7 @@ window.fill((255,255,255))
 # pygame.draw.ellipse(window, (0,0,0), (80,80,200,120), 0)
 # pygame.draw.polygon(window, (0,0,0), ((70,20),(290,400),(470, 360),(523,289)),1)
 # pygame.draw.line(window, (0,0,0), (5,5),(250,342),1)
-pygame.draw.lines(window, (0,0,0), True,((70,20),(290,400),(470, 360),(1,1)), 1)
+# pygame.draw.lines(window, (0,0,0), True,((70,20),(290,400),(470, 360),(1,1)), 1)
 
 
 

@@ -14,12 +14,12 @@ pygame.display.set_caption('Game')
 playerSize=20
 playerX=(windowW/2)-(playerSize/2)
 playery=windowH-playerSize
-playerVX=1.0
+playerVX=0.1
 playerVY=0.0
-moveSpeed=1.0
+moveSpeed=0.1
 maxSpeed=10.0
 jumpH=25.0
-gravity=1.0
+gravity=0.1
 
 leftDown=False
 rightDown=False
@@ -55,7 +55,7 @@ def move():
         #gravity = gravity * 1.1
     else:
         playery = windowH - playerSize
-        gravity = 1.0
+        # gravity = 1.0
 
     playery -= playerVY
 

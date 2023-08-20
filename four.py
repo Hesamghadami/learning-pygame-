@@ -16,8 +16,9 @@ pygame.display.set_icon(gameicon)
 rectprimaryx= 100.0
 rectprimaryy= 100.0
 
-speedx = 0.01
-speedy = 0.01
+
+speedx = 0.1
+speedy = 0.1
 
 while True:
     window.fill((255,255,255))
