@@ -4,8 +4,8 @@ import pygame.event as GAME_EVENTS
 
 pygame.init()
 
-windowW=800
-windowH=800
+windowW=500
+windowH=500
 window = pygame.display.set_mode((windowW,windowH))
 pygame.display.set_caption('Mouse')
 
